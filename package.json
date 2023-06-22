@@ -1,7 +1,6 @@
 {
   "name": "@zerodevapp/aa-utilities",
   "version": "1.0.0-alpha.0",
-  "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
@@ -29,5 +28,14 @@
     "extends": [
       "react-app"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerodevapp/aa-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zerodevapp/aa-utilities/issues"
+  },
+  "homepage": "https://github.com/zerodevapp/aa-utilities#readme",
+  "description": ""
 }
