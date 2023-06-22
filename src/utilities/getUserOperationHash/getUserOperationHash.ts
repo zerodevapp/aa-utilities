@@ -1,6 +1,6 @@
-import { Address, Hex, encodeAbiParameters, hexToBigInt, keccak256 } from "viem";
-import { packUo } from "./packUo";
-import { UserOperationRequest } from "../types";
+import { type Address, encodeAbiParameters, keccak256 } from "viem";
+import { packUo } from "../packUo";
+import { type UserOperationRequest } from "../../types";
 
 export function getUserOperationHash(
     request: UserOperationRequest,

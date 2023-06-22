@@ -1,2 +1,2 @@
-export * from './utilities/getUserOperationHash'
+export * from './utilities/getUserOperationHash/getUserOperationHash'
 export * from './utilities/packUo'

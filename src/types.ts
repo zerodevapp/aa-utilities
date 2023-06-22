@@ -1,7 +1,7 @@
 // https://github.com/alchemyplatform/aa-sdk/blob/main/packages/core/src/types.ts
-import { Address } from "viem";
+import { type Address } from "viem";
 
-export type Hex = `0x`
+export type Hex = `0x${string}`
 export type EmptyHex = `0x`
 
 
