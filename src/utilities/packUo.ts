@@ -1,5 +1,5 @@
 import { type Address, type Hex, encodeAbiParameters, hexToBigInt, keccak256 } from "viem";
-import { type UserOperationRequest } from "../types";
+import { type UserOperationRequest } from "../types.js";
 
 export function packUo(request: UserOperationRequest): Hex {
     const hashedInitCode = keccak256(request.initCode);

@@ -4,7 +4,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "lib": ["ES2022"],
-    "target": "ES2017",
+    "target": "ES2021",
     "types": ["vitest/globals"],
     "allowJs": false,
     "skipLibCheck": true,
@@ -12,16 +12,22 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "CommonJS",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "useDefineForClassFields": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "useUnknownInCatchVariables": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "declaration": true,
+    "inlineSources": true,
+    "noEmit": false,
+    "sourceMap": true
   },
-  "exclude": ["**/*/node_modules", "./dist", "**/*.spec.ts", "vitest.config.ts"]
+  "exclude": ["**/*/node_modules", "./dist", "**/*.spec.ts", "vitest.config.ts"],
+  "include": ["src"]
 }
